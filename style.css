@@ -41,3 +41,8 @@ body {
 .languages a:hover {
   background-color: orange;
 }
+ @media (max-width: 768px) {
+   .languages {
+     flex-direction: column;
+   }
+  }
